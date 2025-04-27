@@ -1,0 +1,257 @@
+(footprint "Castellated_2x08"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.27 -2.38 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Castellated_2x08"
+		(at 1.27 7.46 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.6 -1.27)
+		(end 1.6 19.05)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 19.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start -1.27 19.05)
+		(end 1.6 19.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.6 -1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+	)
+	(fp_line
+		(start 1.6 19.05)
+		(end 1.6 -1.27)
+		(stroke
+			(width 0.05)
+			(type dot)
+		)
+		(layer "F.CrtYd")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3.2 1.6)
+		(drill 1
+			(offset 0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "1" thru_hole roundrect
+		(at 1.6 0)
+		(size 3.2 1.6)
+		(drill 1
+			(offset -0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 2.54)
+		(size 3.2 1.6)
+		(drill 1
+			(offset 0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "2" thru_hole roundrect
+		(at 1.6 2.54)
+		(size 3.2 1.6)
+		(drill 1
+			(offset -0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 5.08)
+		(size 3.2 1.6)
+		(drill 1
+			(offset 0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "3" thru_hole roundrect
+		(at 1.6 5.08)
+		(size 3.2 1.6)
+		(drill 1
+			(offset -0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "4" thru_hole roundrect
+		(at 0 7.62)
+		(size 3.2 1.6)
+		(drill 1
+			(offset 0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "4" thru_hole roundrect
+		(at 1.6 7.62)
+		(size 3.2 1.6)
+		(drill 1
+			(offset -0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "5" thru_hole roundrect
+		(at 0 10.16)
+		(size 3.2 1.6)
+		(drill 1
+			(offset 0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "5" thru_hole roundrect
+		(at 1.6 10.16)
+		(size 3.2 1.6)
+		(drill 1
+			(offset -0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "6" thru_hole roundrect
+		(at 0 12.7)
+		(size 3.2 1.6)
+		(drill 1
+			(offset 0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "6" thru_hole roundrect
+		(at 1.6 12.7)
+		(size 3.2 1.6)
+		(drill 1
+			(offset -0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "7" thru_hole roundrect
+		(at 0 15.24)
+		(size 3.2 1.6)
+		(drill 1
+			(offset 0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "7" thru_hole roundrect
+		(at 1.6 15.24)
+		(size 3.2 1.6)
+		(drill 1
+			(offset -0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "8" thru_hole roundrect
+		(at 0 17.78)
+		(size 3.2 1.6)
+		(drill 1
+			(offset 0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(pad "8" thru_hole roundrect
+		(at 1.6 17.78)
+		(size 3.2 1.6)
+		(drill 1
+			(offset -0.8 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+	)
+	(embedded_fonts no)
+)
